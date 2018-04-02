@@ -3,9 +3,11 @@ Rails.application.routes.draw do
 
   get 'static_pages/help'
 
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-root 'application#hello'
+root 'application#home'
+
+
 end
 
-root :to => 'application#home'
-end
+
